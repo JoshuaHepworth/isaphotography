@@ -1,33 +1,46 @@
-.App {
+.button {
+  position: center;
+}
+.view {
+    background-image: url("https://images.pexels.com/photos/172291/pexels-photo-172291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+ background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+max-height: 60vh;
+}
+.logo {
+  position: relative;
+  margin: auto;
+  top: -130px;
+  right: 238px;
+  bottom: 0;
+  left: -290px;
+  height: 650px;
+  width: 850px;
+}
+.myName {
+  margin: 0 auto;
   text-align: center;
-}
+    white-space: nowrap;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome {
+  margin: 0 auto;
+  width: 100px;
+  background-color: #64a19d;
+  box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
 }
+.welcomeButton {
 
-.App-link {
-  color: #61dafb;
 }
+.bottomBlueBar {
+  height: 50vh;
+  z-index: 1;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
