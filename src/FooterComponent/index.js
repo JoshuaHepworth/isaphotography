@@ -3,34 +3,25 @@ import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbrea
 
 const FooterPage = () => {
   return (
+
     <MDBFooter color="black" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
+      <MDBContainer fluid className="text-center text-md-center">
         <MDBRow>
           <MDBCol md="4">
-            <h4 className="title"><strong>Contact Us</strong></h4>
-            <p>
-              (630) 232 1172
-            </p>
-            <p>
-              316 Campbell Street,<br/> Geneva, IL, 60134
-            </p>
-             <p>
-            countrynaturals@sbcglobal.net
-            </p>
+            <h2 className="title"><strong>Contact</strong></h2>
+            <h4>
+              (847) 521 2545
+            </h4>
           </MDBCol>
            <MDBCol md="4">
-            <h4 className="title"><strong>Store hours</strong></h4>
+            <h2 className="title"><strong>Questions?</strong></h2>
             <p>
-              <strong>Monday - Saturday:</strong> 10:00 am - 5:00 pm
-            </p>
-            <p>
-              <strong>Sunday:</strong> 12:00 pm - 4:00 pm
+              <h4><a href="mailto:Isabellarmorelli@gmail.com">Email me</a></h4>
             </p>
           </MDBCol>
           <MDBCol md="4">
-            <h4 className="title"><strong>Follow us</strong></h4>
-            <MDBBtn size="md" gradient="indigo" a href="https://www.facebook.com/CountryNaturals/"><MDBIcon fab icon="facebook" size="5x" /></MDBBtn>
-            <MDBBtn size="md" gradient="indigo" a href="https://www.instagram.com/countrynaturals/"><MDBIcon fab icon="instagram" size="5x" /></MDBBtn>
+            <h2 className="title"><strong>Follow me!</strong></h2>
+            <MDBBtn size="sm" gradient="purple" a href="https://www.instagram.com/isaxphotography"><MDBIcon fab icon="instagram" size="5x" /></MDBBtn>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
