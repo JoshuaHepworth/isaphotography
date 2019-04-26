@@ -17,7 +17,6 @@ render() {
   return (
       <MDBNavbar color="black" dark expand="md">
         <MDBNavbarBrand>
-          <strong className="white-text">316 Campbell St, Geneva, IL</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -32,7 +31,6 @@ render() {
               <MDBFormInline waves>
                 <div className="md-form my-0">
                   <MDBNavbarBrand>
-          <strong className="white-text">(630) 232-1172</strong>
         </MDBNavbarBrand>
                 </div>
               </MDBFormInline>
