@@ -18,7 +18,6 @@ class App extends Component {
       <div className="App">
         <div className="topPart">
           <AppBarComponent />
-          
             <MDBView>
             <MDBContainer className="mt-5">
             <MDBRow>
