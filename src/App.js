@@ -9,7 +9,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faIgloo } from '@fortawesome/free-solid-svg-icons'
 import { MDBContainer, MDBRow, MDBCol, MDBView } from "mdbreact"
-import AboutModal from './AboutModal'
 
 library.add(faIgloo)
 
@@ -25,7 +24,6 @@ class App extends Component {
             <MDBRow>
               <MDBCol>
                 <img src="https://i.imgur.com/aZHYl6p.png" className="rounded mx-auto d-block img-fluid" alt="aligment" />
-                <AboutModal />
               </MDBCol>
             </MDBRow>
             </MDBContainer>
